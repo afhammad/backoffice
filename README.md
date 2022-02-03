@@ -103,7 +103,7 @@ defmodule YourAppWeb.Backoffice.Layout do
       },
       %{
         label: "Nested Links",
-        expanded: true # default to false
+        expanded: true, # default to false
         links: [
           %{
             label: "Nested 1",
@@ -114,7 +114,7 @@ defmodule YourAppWeb.Backoffice.Layout do
             link: "#"
           }
         ]
-      }
+      },
       %{
         label: "LiveDashboard",
         link: "/admin/dashboard",
@@ -157,7 +157,7 @@ defmodule YourAppWeb.Backoffice.UserLive.Index do
   end
 
   def retry(socket, resource_id) do
-    ...
+    #...
     {:noreply, socket}
   end
 
@@ -193,11 +193,11 @@ defmodule YourAppWeb.Backoffice.UserLive.Single do
   end
 
   form :edit do # form for :edit action
-    ...
+    #...
   end
 
   form :new do # form for :new action
-    ...
+    #...
   end
 end
 ```
